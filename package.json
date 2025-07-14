@@ -2,6 +2,10 @@
   "name": "docgen",
   "displayName": "docgen",
   "description": "Extension vscode for automatic generate docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tiavina22/docgen.git"
+  },
   "version": "0.0.15",
   "engines": {
     "vscode": "^1.102.0"
