@@ -9,15 +9,28 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "docgen.helloWorld",
-        "title": "Hello World"
+        "command": "docgen.generateDoc",
+        "title": "Générer la documentation de l'API sélectionnée (Gemini)"
+      },
+      {
+        "command": "docgen.generateAllDocs",
+        "title": "Générer la documentation de toutes les APIs (Gemini)"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "DocGen Gemini",
+      "properties": {
+        "docgen.geminiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Votre clé API Gemini pour la génération de documentation."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
