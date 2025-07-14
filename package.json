@@ -10,6 +10,10 @@
     "Other"
   ],
   "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:docgen.generateDoc",
+    "onCommand:docgen.generateAllDocs"
+  ],
   "contributes": {
     "commands": [
       {
