@@ -2,7 +2,7 @@
   "name": "docgen",
   "displayName": "docgen",
   "description": "Extension vscode for automatic generate docs",
-  "version": "0.0.1",
+  "version": "0.0.15",
   "engines": {
     "vscode": "^1.102.0"
   },
